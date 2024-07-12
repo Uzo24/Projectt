@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 7.62%, rgba(0, 225, 198, 0.06) 25.5%, #FFFFFF 70.92%);
+    appearance: auto;
+    font-style: normal;
+    color: green;
+    padding-block: 1px;
+    text-align: center;
+    padding: 0%;
+
+
+}
+nav ul {
+    display: flex;
+    width: 407px;
+    height: 40px;
+    border-radius: 34px;
+    gap: 31px;
+    top: 39.5px;
+    left: 386.5px;
+}       
+.btn button {
+    background-color:white;
+    font-size: 18px;
+    width: 140px;
+    line-height: 12px;
+     border: 1px solid rgba(0, 182, 240, 1);
+    border-radius: 85px;
+    cursor: pointer;
+    font-family: Montserrat;
+    letter-spacing: 0.2px;
+    height:40px;
+    padding: 10px 0px 0px 0px;
+    text-decoration: rgba(0, 182, 240, 1);
+    border-image: initial;
+    border-color: green;
+
+
+
+}
+.containe{
+    width:(1,282px)px;
+    height: Hug (367px)px;
+    padding: 39px 0px 39px 0px;
+    gap: 17px;
+    opacity: 0px;
+
+}
+.headerHer {
+    background-image: url(./Images/dere.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    height: 119px;
+    border-radius: 34px;
+    align-items: center
+}
+    .Hero {
+        align-items: center;
+        width: 1,282px;
+        height: 367px;
+        
+        }
+    .HeroText {
+        height: px;
+        align-items: center;
+    }
+    .HeroText h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 72px;
+        line-height: 168px;
+        letter-spacing: 0.2px;
+        align-items: center;
+        color: rgba(17, 45, 87, 1);
+        padding: 10px;
+        font-weight: bold;
+    
+    }
+    .HeroText p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        color: rgba(92, 92, 92, 1);
+    }
+    .gloats {
+        font-family: Montserrat;
+        font-size: 16px;
+        border: 1px solid rgba(0, 182, 240, 1);
+        border-radius: 85px;
+        width: 192px;
+        height: 52px;
+        cursor: pointer;
+        background: none;
+        color: white;
+        margin-right: 1.1rem;
+        letter-spacing: normal;
+        word-spacing: normal;
+        background: rgba(0, 182, 240, 1);
+
+    }
+    .gloateds {
+        font-family: Montserrat;
+        font-size: 16px;
+        height: 52px;
+        width: 192px;
+        letter-spacing: 0.2px;
+        border: 1px solid rgba(225, 225, 225, 1);
+        padding: 20px,36px,20px,36px;
+        border-radius: 85px;
+        font-weight: 700;
+        height: 52px;
+        cursor: pointer;
+        background: none;
+        color:rgba(32, 38, 42, 1);
+        
+        margin-right: 1.1rem;
+    }
+.Btn button {
+        border-radius: 85px;
+        width: 194px;
+        height: 52px;
+        border: 1px solid rgba(225, 225, 225, 1);
+    }
+    .Dashboard{
+        width: 1119px;
+height: 770px
+    }
+    .lightcta {
+        width: 1,282px;
+        height:  492px;
+        padding-left: 125px;
+    
+        gap: 10px;
+        opacity: 0px;
+        color: rgba(255, 255, 255, 1);
+
+    }
+    .hero8{
+        width:  172px;
+        height: 62px;
+        padding: 10px 0px 0px 0px;
+        gap: 10px;
+        opacity: 0px;
+    }
+
+    .hero8 h1{
+        font-family: Circular Std;
+        font-size: 36px;
+        font-weight: 450;
+        line-height: 42px;
+        letter-spacing: 0.10000000149011612px;
+        text-align: left;
+        color: rgba(243, 205, 3, 1);
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        text-align: center;
+        margin-right: -550px;
+    }
+    
+    .Secondheadline{
+        width: 634px;
+        height: 85px;
+        padding: 10px 0px 0px 0px;
+        gap: 10px;
+        opacity: 0px;
+    }
+    .Secondheadline h4{
+        color: rgba(32, 38, 42, 1);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;
+        margin-left:100px ;
+
+     }
+     .Subhead{
+        padding: 10px 0px 0px 0px;
+    }
+    .Subhead p{
+        color: rgba(92, 92, 92, 1);
+font-family: Circular Std;
+font-size: 24px;
+font-weight: 450;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+margin-left: 70px;
+}
+.floated {
+    margin-right: 5px;
+    top: 33px;
+    gap: 80px;
+    height: 62px;
+    color: #00b6f0;
+    border-radius: 85px;
+    width: 245px;
+    line-height: 20px;
+    border-width: 2px;
+    cursor: pointer;
+    width: 150px;
+    border: 2px solid rgba(0, 182, 240, 1);
+    background-color:white;
+    gap: 10px;
+    user-select: none;
+    align-items: flex-start;
+    white-space: pre;
+    padding-inline: 6px;
+}
+.float {
+    
+    margin-right: 5px;
+    top: 33px;
+    gap: 10px;
+    height: 52px;
+    background: #00b6f0;
+    border-radius: 85px;
+    width: 187px;
+    line-height: 52px;
+    border-width: 2px;
+    cursor: pointer;
+    width: 107px;
+    height: 50px;
+    margin-top: 60px;
+    gap: 10px;
+    color: white;
+    letter-spacing: 0.2px;
+    user-select: none;
+    align-items: flex-start;
+    border-style: outset;
+}
+.floats {
+    font-family: Montserrat;
+    font-size: 16px;
+    border: 1px solid rgba(0, 182, 240, 1);
+    border-radius: 85px;
+    width: 192px;
+    height: 52px;
+    cursor: pointer;
+    background: none;
+    color:rgba(0, 182, 240, 1);
+    margin-right: 1.1rem;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+.floateds {
+    font-family: Montserrat;
+        font-size: 16px;
+        border: 1px solid rgba(0, 182, 240, 1);
+        border-radius: 85px;
+        width: 192px;
+        height: 52px;
+        cursor: pointer;
+        background: none;
+        background: rgba(255, 255, 255, 1);
+        color: rgba(32, 38, 42, 1);
+
+
+        margin-right: 1.1rem;
+        letter-spacing: normal;
+        word-spacing: normal;
+}
+.Lightcontent5{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+width: 516px;
+}
+
+.Lightcontent5 h4{
+    width: 312px;
+height: 82px;
+padding: 10px 0px 0px 0px;
+gap: 10px;
+opacity: 0px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 26px;
+font-weight: 450;
+line-height: 32px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+color: rgba(32, 38, 42, 1);
+}
+.Lightcontent5 p{
+    color: rgba(32, 38, 42, 1);
+font-family: sans-serif;
+font-size: 10px;
+font-weight: 100;
+line-height: 18px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+width: 139px;
+height: 102px;
+gap: 10px;
+opacity: 0px;
+}
+.Lightcontent5Text button{
+font-family: fantasy;
+font-size: 12px;
+font-weight: 450px;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: rgba(0, 182, 240, 1);
+width: 118px;
+height: 20px;
+gap: 10px;
+opacity: 0px;
+margin-left: -170px;
+}
+.lightcontent6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 516px;
+    }
+    .lightcontent6 h4{
+        width: 312px;
+    height: 82px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    opacity: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    font-weight: 450;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: rgba(32, 38, 42, 1);
+    }
+    .lightcontent6 p{
+        color: rgba(32, 38, 42, 1);
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 18px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    width: 139px;
+    height: 102px;
+    gap: 10px;
+    opacity: 0px;
+    }
+    
+.lightcontent6Text button{
+    font-family: fantasy;
+    font-size: 12px;
+    font-weight: 450px;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: rgba(0, 182, 240, 1);
+    width: 118px;
+    height: 20px;
+    gap: 10px;
+    opacity: 0px;
+    margin-left: -170px;
+}
+.lightcontent7 {
+height:486px;
+padding: 62px 199px 62px 199px;
+gap: 10px;
+background: rgba(255, 255, 255, 1);
+}
+.lightcontent7Text  h4{
+    color: rgba(32, 38, 42, 1);
+font-family: Circular Std;
+font-size: 56px;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+margin-left: 40px;
+}
+.lightcontent7Text p{
+    color: rgba(92, 92, 92, 1);
+font-family: Circular Std;
+font-size: 19px;
+font-weight: 450;
+line-height: 30px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+margin-left: 40px;
+}
+.Progress {
+    width:347px;
+height:10px;
+margin-left: 227px;
+gap: 0px;
+opacity: 0px;
+margin-right: 40px;
+overflow-clip-margin: content-box;
+overflow: clip;
+}
+.digitText p {
+color: rgba(80, 93, 112, 1);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+text-align: right;
+margin-right: 150px;
+}
+.TitleText p{
+    color: rgba(80, 93, 111, 1);
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+text-align: left;
+margin-left: 200px;
+}
+.TitleText button{
+    background: rgba(0, 182, 240, 1);
+    width:  266px;
+height: 52px;
+padding: 20px 36px 20px 36px;
+gap: 0px;
+border-radius: 85px ;
+opacity: 0px;
+color: rgba(255, 255, 255, 1);
+font-family: Circular Std;
+font-size: 18px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+}
+.confetti {
+    width: 761.2px;
+height: 75px;
+gap: 0px;
+opacity: 0px;
+}
+.lightTestimoial1{
+    color: rgba(32, 38, 42, 1);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 36px;
+font-weight: 450;
+line-height: 42px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+}
+.lightTestimoial1Text h4{
+    color: rgba(32, 38, 42, 1);
+font-family: Circular Std;
+font-size: 36px;
+font-weight: 450;
+line-height: 42px;
+letter-spacing: 0.10000000149011612px;
+margin-left: 46px;
+}
+.Vector {
+    background: rgba(17, 45, 87, 1);
+    width: 122.35px;
+height: 86.48px;
+top: 471.87px;
+left: -287.4px;
+gap: 0px;
+opacity: 0.63px;
+margin-right: 20px;
+}
+.Brands {
+    color: rgba(31, 112, 193, 1);
+
+
+}
